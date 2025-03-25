@@ -1,9 +1,24 @@
 import { motion } from "framer-motion";
 
 const experiences = [
-  { role: "Security Engineer Intern", company: "CyberSecure Inc.", duration: "Summer 2023", description: "Assisted in monitoring and improving network security systems." },
-  { role: "Full Stack Developer", company: "Tech Solutions", duration: "2022 - Present", description: "Developing scalable web applications and APIs." },
-  { role: "Freelance Penetration Tester", company: "Independent", duration: "2021 - Present", description: "Conducting security assessments for small businesses." }
+  {
+    role: "Student Technician",
+    company: "Office of Information Technology",
+    duration: "June 2024 - Present",
+    description: "Provides technical support to students, faculty, and staff."
+  },
+  {
+    role: "Data Entry Clerk (Remote)",
+    company: "JAFF Tax and Accounting Services",
+    duration: "05/2023 - 08/2023",
+    description: "Inputted customers’ tax records into a new computer system."
+  },
+  {
+    role: "Senior Class Treasurer",
+    company: "Freedom High School Student Council",
+    duration: "2021 - 2022",
+    description: "Oversaw budgets, expenses, and fundraising initiatives, successfully executing class activities such as Prom, Homecoming, and Bonfire."
+  }
 ];
 
 export default function Experiences() {
@@ -24,7 +39,7 @@ export default function Experiences() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
-            className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-orange-500 relative z-20"
           >
             <h3 className="text-2xl font-bold mb-2">{exp.role}</h3>
             <p className="text-gray-400 font-semibold">{exp.company}</p>

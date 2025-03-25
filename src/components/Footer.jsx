@@ -8,7 +8,7 @@ export default function Footer() {
         <a href="https://github.com/TrippieGlop" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-2xl hover:text-orange-300" />
         </a>
-        <a href="www.linkedin.com/in/marc-humphrey-1b5a2a31b" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/marc-humphrey-1b5a2a31b/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-2xl hover:text-orange-300" />
         </a>
         <a href="https://www.instagram.com/mawrk.6/" target="_blank" rel="noopener noreferrer">
