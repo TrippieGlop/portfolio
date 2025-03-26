@@ -28,7 +28,7 @@ export default function Experiences() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-5xl font-bold"
+        className="text-5xl font-bold text-orange-500 relative z-30"
       >
         Experience
       </motion.h2>

@@ -13,7 +13,7 @@ export default function Projects() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-5xl font-bold"
+        className="text-5xl font-bold text-orange-500 relative z-30"
       >
         Projects
       </motion.h2>
