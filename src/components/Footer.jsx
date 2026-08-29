@@ -1,10 +1,13 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="bg-black text-orange-500 p-10 text-center mt-20">
       <p className="text-lg">&copy; 2025 Marc Humphrey. All rights reserved.</p>
       <div className="flex justify-center space-x-6 mt-4">
+        <a href="mailto:humphreymn6@gmail.com" target="_blank" rel="noopener noreferrer">
+          <FaEnvelope className="text-2xl hover:text-orange-300" />
+        </a>
         <a href="https://github.com/TrippieGlop" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-2xl hover:text-orange-300" />
         </a>
@@ -18,3 +21,4 @@ export default function Footer() {
     </footer>
   );
 }
+
