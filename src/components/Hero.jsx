@@ -27,10 +27,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen px-6 sm:px-12 md:px-20 pt-28 pb-20">
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl gap-10">
-<<<<<<< HEAD
-=======
         {/* Animated Text on Left */}
->>>>>>> 0b8d89ca0cdee7c74c0a0f7e612e15d0a0537dd6
         <div className="w-full md:w-1/2 text-left flex flex-col justify-center">
           <motion.p
             initial={{ opacity: 0, y: -10 }}
@@ -73,25 +70,10 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.6 }}
             className="flex gap-4 mt-8"
           >
-<<<<<<< HEAD
             <a href="/projects" className="bg-orange-500 text-black font-semibold px-6 py-3 rounded-md hover:bg-orange-400 transition-colors">
               View Projects
             </a>
             <a href="/Marc_Humphrey_Resume_2026.pdf" target="_blank" rel="noopener noreferrer" className="border border-orange-500 text-orange-400 font-semibold px-6 py-3 rounded-md hover:bg-orange-500 hover:text-black transition-colors">
-=======
-            <a
-              href="/projects"
-              className="bg-orange-500 text-black font-semibold px-6 py-3 rounded-md hover:bg-orange-400 transition-colors"
-            >
-              View Projects
-            </a>
-            <a
-              href="/Marc_Humphrey_Resume_2026.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-orange-500 text-orange-400 font-semibold px-6 py-3 rounded-md hover:bg-orange-500 hover:text-black transition-colors"
-            >
->>>>>>> 0b8d89ca0cdee7c74c0a0f7e612e15d0a0537dd6
               Download Résumé
             </a>
           </motion.div>
@@ -109,10 +91,7 @@ export default function Hero() {
         </div>
       </div>
 
-<<<<<<< HEAD
-=======
       {/* About Me Section */}
->>>>>>> 0b8d89ca0cdee7c74c0a0f7e612e15d0a0537dd6
       <section
         id="about"
         className="w-full max-w-5xl mt-24 md:mt-32 p-8 md:p-10 bg-gray-900/80 border border-white/5 rounded-xl shadow-lg text-orange-500 relative z-20"
@@ -159,10 +138,7 @@ export default function Hero() {
         </motion.div>
       </section>
 
-<<<<<<< HEAD
-=======
       {/* Skills Section */}
->>>>>>> 0b8d89ca0cdee7c74c0a0f7e612e15d0a0537dd6
       <section id="skills" className="w-full max-w-5xl mt-16">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
